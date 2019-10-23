@@ -1,3 +1,23 @@
 #main-bkgd {
     background-image: url('../imgs/white-waves.png');
 }
+
+.navbar {
+    box-sizing: content-box;
+    background-color: #ffffff;
+    width: -webkit-fill-available;
+}
+
+.navbar-text {
+    height: 70px;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    color: #eee;
+    padding: 20px 30px 0px 30px;
+    margin: 0;
+}
+
+.txt-contain {
+    color: #4aaaa5;
+    font-weight: bold;
+}
