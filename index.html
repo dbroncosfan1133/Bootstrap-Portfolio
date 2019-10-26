@@ -12,12 +12,14 @@
 </head>
 
 <body id="main-bkgd">
-    <nav class="navbar navbar-expand-lg">
-        <div class="col-lg-2"></div>
-        <span class="navbar-brand h1 hd-contain">Curtis Allen</span>
-        <div class="collapse navbar-collapse" id="navContent">
-            <div class="col-lg-10">
-            <ul class="nav navbar-nav justify-content-end pd-nav">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-brand h1 justify-content-center hd-contain">Curtis Allen</div>
+            <div class="collapse navbar-collapse" id= "navContent">
+        </nav>
+    <div class="col-lg-8" id="navFill"></div>
+    <nav class="navbar navbar-expand-lg justify-content-center contNav">
+        <ul class="navbar justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link text-secondary" href="index.html">About</a>
                 </li>
@@ -28,9 +30,9 @@
                     <a class="nav-link text-secondary" href="contact.html">Contact Me</a>
                 </li>
             </ul>
-        </div>
-        </div>
     </nav>
+    </div>
+
 
     <div class="container">
         <div class="row">
@@ -40,7 +42,25 @@
                     <h2>About Me</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="card col-md-4">
+                        <img src="assets/imgs/DSC07299.jpg" class="card-img justify-content-center" alt="Curtis Allen" title="Me and my dog Maya" width="299px" height="200px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Hi, my name is Curtis.  I am currently a Production Supervisor at a PCB Manufacturing facility.  I manage the Surface Finish Department 
+                                with 8 different processes and 24 employees. I am responsible for tracking priority orders through my department, approving/declining
+                                vacation requests, scheduling overtime, working with engineering to make changes to processes, tracking quality by reject codes, annual                                    performance reviews, and much more.
+                            </p>
+                            <p>
+                                I am learning how to code professionally and look forward to using those skills in a new career path. 
+                                I love everything electronics related and have a passion for PC's. I have built 3 of my own personal                                     computers, a home theater PC (HTPC), a personal Unraid Server with a Plex Media Server docker and                                         a docker for doing automatic file backups, and sadly haha, :) my prize possession, a high-end gaming 
+                                rig complete with a custom watercooled loop. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--<div class="col-md-3">
                         <img src="assets/imgs/DSC07299.jpg" alt="Curtis Allen" title="Me and my dog Maya" width="299px" height="200px">
                     </div>
                     <div class="col-md-1"></div>
@@ -58,7 +78,7 @@
                             a docker for doing automatic file backups, and sadly haha, :) my prize possession, a high-end gaming 
                             rig complete with a custom watercooled loop. 
                         </p>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>

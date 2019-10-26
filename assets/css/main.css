@@ -4,21 +4,26 @@
     color: #777777;
 }
 
+#navFill {
+    background-color: #ffffff;
+}
+
 .navbar {
     background-color: #ffffff;
     padding: 0 0 0 0;
+}
+
+.nav {
+    float: right;
 }
 
 .hd-contain {
     background-color: #4aaaad;
     color: #eee;
     font-size: 24px;
-    margin: 0px 0px 0px 36px;
+    margin: 0px 0px 0px 0px;
     padding: 20px 30px 20px 30px;
-}
-
-.pd-nav {
-    padding-right: 90px;
+    z-index: 1;
 }
 
 .txt-contain {
@@ -34,6 +39,10 @@
 
 .divider1 {
     border-bottom: 3px solid #dddddd;
+}
+
+.card {
+    border: none;
 }
 
 h2 {
@@ -62,12 +71,24 @@ footer {
 }
 
 @media screen and (max-width: 680px) {
-    .navbar-brand {width: 680px;
+    .hd-contain {
+        width: 680px;
         text-align: center;
-        margin-left: 0px;
     }
-    nav {
-        display: inline;
+    
+    .contNav {
+        width: 680px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .hd-contain {
+        width: 500px;
         text-align: center;
+    }
+
+    .contNav {
+        width: 500px;
+        padding-top: 15px;
     }
 }
